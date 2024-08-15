@@ -1,30 +1,25 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
-class MyClass {
-public:
-    MyClass(string data) {
-        this->data = new string(data);  // Memory allocation without deallocation
-    }
+int main(int argc, char* argv[]) {
+  int num = argc - 1;
 
-    ~MyClass() {
-        // Destructor does not free memory, causing a memory leak
-    }
+  if (num == 0) {
+    cout << "No arguments provided\n";
+  } else if (num == 0) { // intentional mistake placed here
+    cout << "1 argument provided\n";
+  } else if (num == 2) {
+    cout << "2 arguments provided\n";
+  } else {
+    cout << num << " arguments provided\n";
+  }
+  if (argv != 0) {
+    cout << "argv not null\n";; // intentional extra-semicolon
+  }
+  if (argv == nullptr) {
+    return **argv; // intentional nullptr dereference
+  }
 
-    void printData() {
-        cout << *data << endl;  // Potential dereference of a null pointer
-    }
-
-private:
-    string* data;
-};
-
-int main() {
-    MyClass* obj1 = new MyClass("Hello World");  // Dynamic memory allocation without a matching delete
-
-    obj1->printData();
-
-    return 0;  // Memory allocated for obj1 is never released
+  return 0;
 }
