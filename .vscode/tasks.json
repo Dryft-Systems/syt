@@ -8,9 +8,9 @@
 			"args": [
 				"-g",
 				"-std=c++20",
-				"${workspaceFolder}/*.cpp",
+				"${workspaceFolder}/src/*.cpp",
 				"-o",
-				"${fileDirname}/rooster"
+				"${workspaceFolder}/rooster"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -28,9 +28,9 @@
 			"args": [
 				"-g",
 				"-std=c++20",
-				"${workspaceFolder}/*.cpp",
+				"${workspaceFolder}/src/*.cpp",
 				"-o",
-				"${fileDirname}/rooster"
+				"${workspaceFolder}/rooster"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
