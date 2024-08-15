@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Build with GCC 14.1.0",
+			"command": "/home/linuxbrew/.linuxbrew/bin/g++-14",
+			"args": [
+				"-g",
+				"-std=c++20",
+				"${workspaceFolder}/*.cpp",
+				"-o",
+				"${fileDirname}/rooster"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /home/linuxbrew/.linuxbrew/bin/g++-14"
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build with clang 18.1.6",
+			"command": "/home/linuxbrew/.linuxbrew/bin/clang++",
+			"args": [
+				"-g",
+				"-std=c++20",
+				"${workspaceFolder}/*.cpp",
+				"-o",
+				"${fileDirname}/rooster"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /home/linuxbrew/.linuxbrew/bin/clang++"
+		}
+	]
+}
