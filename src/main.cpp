@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
     cout << num << " arguments provided\n";
   }
   if (argv != 0) {
-    cout << "argv not null\n";; // intentional extra-semicolon
+    cout << "argv not null\n";; // intentional extra-semicolon cuh
   }
   if (argv == nullptr) {
     return **argv; // intentional nullptr dereference
