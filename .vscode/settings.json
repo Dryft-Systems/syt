@@ -45,5 +45,6 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "optional": "cpp"
-    }
+    },
+    "C_Cpp.default.compilerPath": "/home/linuxbrew/.linuxbrew/bin/g++-14"
 }
