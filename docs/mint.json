@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Dryft",
   "logo": {
-    "dark": "/logo/Dark Text Only Transparent.png",
-    "light": "/logo/Light Text Only Transparent.png"
+    "dark": "/logo/Light Text Only Transparent.png",
+    "light": "/logo/Dark Text Only Transparent.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
