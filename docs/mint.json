@@ -7,9 +7,9 @@
   },
   "favicon": "/Main Fav.png",
   "colors": {
-    "primary": "#7F3BFF",
-    "light": "#6200FF",
-    "dark": "#7F3BFF",
+    "primary": "#ad86f7",
+    "light": "#ad86f7",
+    "dark": "#ad86f7",
     "anchors": {
       "from": "#6200FF",
       "to": "#5000D1"
